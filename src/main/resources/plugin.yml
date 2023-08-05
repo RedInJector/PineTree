@@ -1,0 +1,15 @@
+name: PineTreePlugin
+version: '${project.version}'
+main: org.rij.minecraft.PineTree.Bukkit.PTBukkit
+api-version: 1.19
+author: RedInJector
+
+
+
+commands:
+  pineTree:
+    description: Your description
+    usage: /<command> getextensions
+    permission: PineTree.commands
+    aliases:
+      - PT
